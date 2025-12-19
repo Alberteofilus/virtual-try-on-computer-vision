@@ -3,7 +3,7 @@
 
 ## Anggota Kelompok
 - Bill Hensen (222102329)  
-- Hizkia Justine Hasan (222201142)  
+- Hizkia Justine Hasan ()  
 - Owen Theodore Yosephus (222101499)  
 - Albert Teofilus Kusumajaya (222101457)  
 - Gery Yulianto (222101862)  
