@@ -68,7 +68,6 @@ https://github.com/shadow2496/VITON-HD
 - **Output:** Mask segmentasi pakaian
 - **Metrik:** Intersection over Union (IoU)
 - Evaluasi difokuskan pada segmentasi **upper clothes**.
-- Untuk SAM2, digunakan **bounding box prompt** untuk mengontrol lokasi objek dan memastikan evaluasi yang adil.
 
 ### 🔹 Evaluasi Model Generatif
 - **Input:** Citra orang, citra pakaian, dan mask
@@ -80,12 +79,18 @@ https://github.com/shadow2496/VITON-HD
 
 ## Struktur Repository
 ```text
-notebooks/
-├── sam2-fine-tuning-viton-hd.ipynb
-├── sam2-eval-viton-hd.ipynb
-├── hrnet-fine-tuning-viton-hd.ipynb
-├── hrnet-eval-viton-hd.ipynb
-├── catvton-fine-tuning-viton-hd.ipynb
-├── catvton-eval-viton-hd.ipynb
-├── ootdiffusion-fine-tuning-viton-hd.ipynb
-├── ootdiffusion-eval-viton-hd.ipynb
+virtual-try-on-computer-vision/
+├── README.md
+└── notebooks/
+    ├── discriminative/
+    │   ├── sam2-fine-tuning.ipynb
+    │   ├── sam2-eval.ipynb
+    │   ├── hrnet-fine-tuning.ipynb
+    │   └── hrnet-eval.ipynb
+    │
+    └── generative/
+        ├── catvton-fine-tuning.ipynb
+        ├── catvton-eval.ipynb
+        ├── ootdiffusion-fine-tuning.ipynb
+        └── ootdiffusion-eval.ipynb
+
