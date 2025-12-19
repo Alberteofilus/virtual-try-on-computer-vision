@@ -78,7 +78,6 @@ https://github.com/shadow2496/VITON-HD
 ---
 
 ## Struktur Repository
-```text
 virtual-try-on-computer-vision/
 ├── README.md
 └── notebooks/
